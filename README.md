@@ -121,3 +121,18 @@ This repository documents the key requirements for improving the training data u
 - **Actionability:** The security team, in collaboration with developers, will implement these measures.
 
 ---
+
+### 8. **As a Developer, I want the system to scale efficiently to handle large datasets and high traffic.**
+
+- **Description:** Design the system to handle large volumes of data and traffic without performance degradation.
+- **Priority:** High
+- **Assumptions & Validation:**
+  - The system may struggle with large data loads.
+  - Scalability will be validated through load testing and performance benchmarks.
+- **Tasks:**
+  1. Design the data pipeline to handle high traffic and large datasets.
+  2. Use cloud solutions or distributed systems for data processing.
+  3. Test the system’s performance under heavy loads.
+- **Actionability:** This can be handled by a developer specializing in cloud computing and distributed systems.
+
+---
