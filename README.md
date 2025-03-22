@@ -48,3 +48,17 @@ This repository documents the key requirements for improving the training data u
 - **Actionability:** The data science team can take charge of creating and applying bias detection methods.
 
 ---
+
+### 3. **As a Developer, I want to separate questions from answers in the dataset for better training data organization.**
+
+- **Description:** Design a data categorization system to keep training questions separate from answers, as developers need distinct data sets for better model training.
+- **Priority:** Medium
+- **Assumptions & Validation:**
+  - Combining questions and answers may reduce model accuracy.
+  - Validation will involve comparing model performance using both combined and separate datasets.
+- **Tasks:**
+  1. Create a rule-based system or machine learning model to identify and separate questions from answers.
+  2. Test and iterate the separation logic to ensure accuracy.
+- **Actionability:** This requirement will be handled by a developer in collaboration with data scientists.
+
+---
