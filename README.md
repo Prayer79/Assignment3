@@ -225,3 +225,18 @@ This repository documents the key requirements for improving the training data u
 - **Actionability:** This can be assigned to a developer familiar with logging and monitoring tools.
 
 ---
+
+### 15. **As a Data Scientist, I want to evaluate the dataset for quality and usability before using it for AI model training.**
+
+- **Description:** Ensure that the data meets high-quality standards and is suitable for use in training AI models.
+- **Priority:** High
+- **Assumptions & Validation:**
+  - Poor-quality data can lead to ineffective AI models.
+  - Validation will be done by evaluating the model's performance on the dataset.
+- **Tasks:**
+  1. Review the dataset for completeness and consistency.
+  2. Perform exploratory data analysis (EDA) to detect potential issues.
+  3. Implement data cleansing processes where necessary.
+- **Actionability:** The data science team will carry out the evaluation and cleansing process.
+
+---
