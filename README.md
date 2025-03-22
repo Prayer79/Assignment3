@@ -62,3 +62,17 @@ This repository documents the key requirements for improving the training data u
 - **Actionability:** This requirement will be handled by a developer in collaboration with data scientists.
 
 ---
+
+### 4. **As a Data Engineer, I want to automate the categorization process to ensure efficiency and reduce manual errors.**
+
+- **Description:** Develop an automated categorization pipeline to classify the scraped data into predefined categories without manual intervention.
+- **Priority:** High
+- **Assumptions & Validation:**
+  - Manual categorization is time-consuming and error-prone.
+  - Automation will be validated through system tests and comparison of results with manual categorization.
+- **Tasks:**
+  1. Develop a machine learning model or rule-based algorithm for automatic categorization.
+  2. Integrate the automated categorization process into the data scraping pipeline.
+- **Actionability:** This task can be assigned to a data engineer with expertise in automation.
+
+---
