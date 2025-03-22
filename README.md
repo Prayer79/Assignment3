@@ -166,3 +166,17 @@ This repository documents the key requirements for improving the training data u
 - **Actionability:** This task can be managed by developers familiar with real-time data processing.
 
 ---
+
+### 11. **As a Data Scientist, I need the system to categorize data into multiple predefined categories.**
+
+- **Description:** Improve the data categorization to allow data to be categorized under multiple tags or labels.
+- **Priority:** Medium
+- **Assumptions & Validation:**
+  - The current categorization system is too rigid.
+  - Validation will be done through testing multi-tag categorization on sample datasets.
+- **Tasks:**
+  1. Modify the categorization algorithm to support multi-label classification.
+  2. Test and optimize the categorization process for accuracy.
+- **Actionability:** This can be handled by the data science team.
+
+---
