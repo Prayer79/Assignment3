@@ -91,3 +91,18 @@ This repository documents the key requirements for improving the training data u
 - **Actionability:** The data engineering team will manage the implementation of version control for datasets.
 
 ---
+
+### 6. **As a Data Scientist, I want to monitor data quality automatically to detect errors in the dataset.**
+
+- **Description:** Develop an automated system that checks for data quality issues such as missing values, duplicates, or inconsistencies.
+- **Priority:** Medium
+- **Assumptions & Validation:**
+  - Data errors can affect model accuracy.
+  - This will be validated through error detection metrics and system alerts.
+- **Tasks:**
+  1. Build an automated data quality checker for common data issues.
+  2. Integrate the checker into the data pipeline to run after each scrape.
+  3. Set up alerts for critical data quality problems.
+- **Actionability:** The data science and engineering teams will collaborate to build this system.
+
+---
