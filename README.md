@@ -180,3 +180,18 @@ This repository documents the key requirements for improving the training data u
 - **Actionability:** This can be handled by the data science team.
 
 ---
+
+### 12. **As a Developer, I want to implement automated tests to verify the quality of the scraping process.**
+
+- **Description:** Develop automated unit and integration tests for the scraping process to catch errors early.
+- **Priority:** Medium
+- **Assumptions & Validation:**
+  - Without automated testing, errors in the scraping process can go unnoticed.
+  - Validation will be through running tests and confirming no errors occur in scraping.
+- **Tasks:**
+  1. Write unit tests for scraping logic.
+  2. Implement integration tests to ensure data flows correctly through the pipeline.
+  3. Set up a continuous integration system to run tests automatically.
+- **Actionability:** This task can be handled by developers with testing expertise.
+
+---
