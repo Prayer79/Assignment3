@@ -195,3 +195,18 @@ This repository documents the key requirements for improving the training data u
 - **Actionability:** This task can be handled by developers with testing expertise.
 
 ---
+
+### 13. **As a Developer, I want to improve the system’s performance when processing large amounts of scraped data.**
+
+- **Description:** Enhance the system's ability to process large amounts of data quickly and efficiently.
+- **Priority:** High
+- **Assumptions & Validation:**
+  - The system may face performance issues with large datasets.
+  - Validation will be done through performance tests and stress testing.
+- **Tasks:**
+  1. Optimize database queries and data processing algorithms.
+  2. Implement batch processing techniques for large datasets.
+  3. Test performance with datasets of various sizes.
+- **Actionability:** This can be managed by performance engineers and developers.
+
+---
