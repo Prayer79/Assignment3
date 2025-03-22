@@ -33,3 +33,18 @@ This repository documents the key requirements for improving the training data u
 - **Actionability:** This can be assigned to a developer specializing in data scraping and performance optimization.
 
 ---
+
+### 2. **As a Data Scientist, I need to ensure that the data collected is balanced and free from biases.**
+
+- **Description:** Implement methods to detect and correct biases in the scraped training data, ensuring balanced representation.
+- **Priority:** High
+- **Assumptions & Validation:**
+  - The data may be imbalanced, leading to biased AI models.
+  - Validation will involve analyzing data distribution and identifying underrepresented categories.
+- **Tasks:**
+  1. Develop algorithms to assess the balance of the dataset.
+  2. Apply techniques like oversampling or undersampling to correct data imbalances.
+  3. Continuously monitor and adjust data balance during scraping.
+- **Actionability:** The data science team can take charge of creating and applying bias detection methods.
+
+---
