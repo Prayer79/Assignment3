@@ -106,3 +106,18 @@ This repository documents the key requirements for improving the training data u
 - **Actionability:** The data science and engineering teams will collaborate to build this system.
 
 ---
+
+### 7. **As a Developer, I need to implement security measures to ensure the safe collection and storage of data.**
+
+- **Description:** Introduce security practices to protect sensitive data during the scraping process and while it’s being stored.
+- **Priority:** High
+- **Assumptions & Validation:**
+  - Data privacy could be compromised during scraping.
+  - Validation will be through security audits and testing for potential vulnerabilities.
+- **Tasks:**
+  1. Apply encryption methods for data storage.
+  2. Ensure secure connections for web scraping using HTTPS and authentication.
+  3. Conduct regular security audits.
+- **Actionability:** The security team, in collaboration with developers, will implement these measures.
+
+---
