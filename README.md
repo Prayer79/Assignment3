@@ -76,3 +76,18 @@ This repository documents the key requirements for improving the training data u
 - **Actionability:** This task can be assigned to a data engineer with expertise in automation.
 
 ---
+
+### 5. **As a Developer, I need to implement data versioning to track changes and ensure data integrity.**
+
+- **Description:** Introduce data versioning to maintain a history of changes to the dataset and facilitate easy rollback if necessary.
+- **Priority:** Medium
+- **Assumptions & Validation:**
+  - Without versioning, it’s difficult to track data changes.
+  - Validation can be done through testing rollback scenarios and ensuring data accuracy after reverting to a previous version.
+- **Tasks:**
+  1. Implement a version control system for the dataset.
+  2. Enable tracking of data changes and updates.
+  3. Set up regular checkpoints to save versions of the dataset.
+- **Actionability:** The data engineering team will manage the implementation of version control for datasets.
+
+---
